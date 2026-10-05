@@ -1,0 +1,99 @@
+/*##################################################
+
+  DEFAULT POPUP STYLES
+
+##################################################*/
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  padding: 2rem;
+}
+.modal-content {
+  width: 80%;
+  height: 100%;
+  background: var(--gray-100);
+  border-radius: 1rem;
+  /*border: 1px solid var(--gray-800);*/
+  overflow: hidden;
+  position: relative;
+}
+.modal-header {
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.onclose {
+  background: none;
+  border: none;
+  color: var(--gray-800);
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+}
+.intro {
+  padding: 10rem;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  /*background: linear-gradient(135deg, var(--primary), var(--primary-light));*/
+  background: #07162d;
+}
+.intro-text {
+  text-align: center;
+  color: white;
+}
+.intro-button {
+  width: 40%;
+  place-self: center;
+  /*background: linear-gradient(135deg, #07162d 0%, #0d2747 45%, #0f3f6d 100%);*/
+  background: var(--primary);
+  color: white;
+  padding: 15px;
+}
+
+/*##################################################
+
+  NOTIFICATION STYLES
+
+##################################################*/
+
+/*##################################################
+
+  BILLS STYLES
+
+##################################################*/
+
+/*##################################################
+
+  GITHUB STYLES
+
+##################################################*/
+
+/*##################################################
+
+  PLAY STORE STYLES
+
+##################################################*/
+
+/*##################################################
+
+  APP STORE STYLES
+
+##################################################*/
+
+/*##################################################
+
+  WEB UPLOAD STYLES
+
+##################################################*/
